@@ -10,11 +10,11 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const refForm = useRef()
-    // useEffect(() => {
-    //         return setTimeout(() => {
-    //           setLetterClass('text-animate-hover')
-    //         }, 3000)
-    //       }, [])
+    useEffect(() => {
+             setTimeout(() => {
+                return setLetterClass('text-animate-hover')
+            }, 3000)
+          }, [])
 
     const sendEmail = (e) => {
         e.preventDefault()

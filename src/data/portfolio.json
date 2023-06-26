@@ -1,0 +1,37 @@
+{
+    "portfolio": [
+        {
+            "cover":"/portfolio/1/one.png",
+            "title": "Wordle Words Guessing Game",
+            "description":"Python, Pandas Library",
+            "url":"https://google.com"
+        },
+        {
+            "cover":"/portfolio/2/two.png",
+            "title": "Sampratilipi",
+            "description":"Java, MySQL, Density-Based Clustering, Chain-Coding",
+            "url":"https://google.com"
+        },
+        {
+            "cover":"/portfolio/3/three.png",
+            "title": "New York Yellow Taxi Data",
+            "description":"PostgreSQL, MongoDB, K-means Clustering, Itemset-Mining, Streamlit",
+            "url":"https://google.com"
+        },
+        {
+            "cover":"/portfolio/4/four.png",
+            "title": "Google Merch Store Dashboard",
+            "description":"Big-Query, Google Looker Studio, DataAnalytics",
+            "url":"https://google.com"
+        },
+        {
+            "cover":"/portfolio/5/five.png",
+            "title": "Website",
+            "description":"React, JavaScript, HTML, CSS, SCSS",
+            "url":"https://google.com"
+        }
+
+
+
+    ]
+}
