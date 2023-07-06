@@ -3,7 +3,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAndroid, faGithub, faJava, faPython, faSalesforce } from '@fortawesome/free-brands-svg-icons'
-import { faMysql } from '@fortawesome/free-brands-svg-icons';
+// import { faMysql } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons'
 import Loader from 'react-loaders'
 

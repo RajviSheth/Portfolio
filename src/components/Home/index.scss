@@ -7,6 +7,19 @@
       width: 40%;
       max-height: 90%;
     }
+
+    .solid-logo {
+      position: absolute;
+      top: auto;
+      right: auto;
+      bottom: auto;
+      left: 0;
+      margin-left: 100%;
+      margin-top: -45%;
+      width: 70%;
+      // transform: rotateZ(30deg) !important;
+      z-index: 1;
+      }
   
     h1 {
       color: #fff;
@@ -89,7 +102,8 @@
       display: none;
     }
   
-    .home-page .text-zone {
+    .home-page {
+      .text-zone {
       position: initial;
       width: 100%;
       transform: none;
@@ -113,14 +127,15 @@
       box-sizing: border-box;
       margin: auto;
       left: 0;
-    }
-  
-    .logo-container svg {
-      position: absolute;
-      top: auto;
-      right: auto;
-      bottom: auto;
-      left: 0;
-      margin: auto;
+
+      svg {
+        position: absolute;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: 0;
+        margin: auto;
+      }
     }
   }
+}

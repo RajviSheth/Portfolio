@@ -12,16 +12,16 @@ import pic_9 from '../../assets/images/pic_9.jpg'
 import pic_10 from '../../assets/images/pic_10.jpg'
 import pic_11 from '../../assets/images/pic_11.jpg'
 import pic_12 from '../../assets/images/pic_12.jpg'
-import { useEffect, useState } from 'react'
-import AnimatedLetters from '../AnimatedLetters'
+// import { useEffect, useState } from 'react'
+// import AnimatedLetters from '../AnimatedLetters'
 
 const MyWork = () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
-    useEffect(() => {
-        setTimeout(() => {
-            return setLetterClass('text-animate-hover')
-        }, 4000)
-      }, [])
+  // const [letterClass, setLetterClass] = useState('text-animate')
+  //   useEffect(() => {
+  //       setTimeout(() => {
+  //           return setLetterClass('text-animate-hover')
+  //       }, 4000)
+  //     }, [])
 
     return (
         <>
