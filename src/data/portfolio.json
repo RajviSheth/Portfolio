@@ -1,7 +1,7 @@
 {
     "portfolio": [
         {
-            "cover":"/portfolio/1/one.png",
+            "cover":"../assets/images/one.png",
             "title": "Wordle Words Guessing Game",
             "description":"Python, Pandas Library",
             "url":"https://google.com"
