@@ -5,8 +5,8 @@ import Layout from './components/Layout';
 import Home from './components/Home';
 import About from './components/About'
 import Contact from './components/Contact\'';
-import MyWork from './components/MyWork';
 import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
 
 function App() {
   return (
@@ -16,9 +16,9 @@ function App() {
         <Route index element={<Home />}/>
         <Route path="about" element={<About />}/>
         <Route path="portfolio" element={<Portfolio />}/>
-        <Route path="mywork" element={<MyWork />}/>
+        {/* <Route path="mywork" element={<MyWork />}/> */}
         <Route path="contact" element={<Contact />}/>
-        
+        <Route path="resume" element={<Resume />}/>
       </Route>
     </Routes>
     </>
