@@ -1,0 +1,32 @@
+{
+    "experience": [
+        {
+            "company":"Accenture",
+            "date": "2022-01-01",
+            "position":"Python, Pandas Library",
+            "description":"https://google.com"
+        },
+        {
+            "company":"Jayamsoft",
+            "date": "2023-01-01",
+            "position":"Python, Pandas Library",
+            "description":"https://google.com"
+        },
+        {
+            "company":"Inoweave",
+            "date": "2017-03-03",
+            "position":"Python, Pandas ",
+            "description":"https://google.com"
+        },
+        {
+            "company":"Resilience",
+            "date": "2019-02-02",
+            "position":"Python, ",
+            "description":"https://google.com"
+        }
+        
+        
+
+
+    ]
+}

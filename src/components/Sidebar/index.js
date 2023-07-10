@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom'
 import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faClose, faEnvelope, faHome, faNewspaper, faSuitcase, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faBuilding, faClose, faEnvelope, faHome, faNewspaper, faSuitcase, faUser } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin, faSalesforce } from '@fortawesome/free-brands-svg-icons'
 import { useState } from 'react'
 
@@ -32,6 +32,12 @@ const Sidebar = () => {
             activeclassname="active" className="portfolio-link" to="/portfolio">
                 <FontAwesomeIcon icon={faSuitcase} color='#4d4d4e'/>
             </NavLink>
+
+            <NavLink onClick={() => setShowNav(false)}
+            activeclassname="active" className="experience-link" to="/experience">
+                <FontAwesomeIcon icon={faBuilding} color='#4d4d4e'/>
+            </NavLink>
+
             <NavLink onClick={() => setShowNav(false)}
             activeclassname="active" className="contact-link" to="/contact">
                 <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e'/>
@@ -41,6 +47,8 @@ const Sidebar = () => {
             activeclassname="active" className="resume-link" to="/resume">
                 <FontAwesomeIcon icon={faNewspaper} color='#4d4d4e'/>
             </NavLink>
+
+            
 
             <FontAwesomeIcon
             onClick={() => setShowNav(false)}

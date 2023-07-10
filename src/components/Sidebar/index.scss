@@ -105,6 +105,12 @@
             }
         }
 
+        a.experience-link {
+            &:after {
+                content: 'WORK-EX';
+            }
+        }
+
         a.active {
             svg {
                 color: #ffd700;
