@@ -7,7 +7,7 @@ import About from './components/About'
 import Contact from './components/Contact\'';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
-import Experience from './components/Experience';
+// import Experience from './components/Experience';
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <Route index element={<Home />}/>
         <Route path="about" element={<About />}/>
         <Route path="portfolio" element={<Portfolio />}/>
-        <Route path="experience" element={<Experience />}/>
+        {/* <Route path="experience" element={<Experience />}/> */}
         <Route path="contact" element={<Contact />}/>
         <Route path="resume" element={<Resume />}/>
       </Route>

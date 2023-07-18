@@ -33,10 +33,10 @@ const Sidebar = () => {
                 <FontAwesomeIcon icon={faSuitcase} color='#4d4d4e'/>
             </NavLink>
 
-            <NavLink onClick={() => setShowNav(false)}
+            {/* <NavLink onClick={() => setShowNav(false)}
             activeclassname="active" className="experience-link" to="/experience">
                 <FontAwesomeIcon icon={faBuilding} color='#4d4d4e'/>
-            </NavLink>
+            </NavLink> */}
 
             <NavLink onClick={() => setShowNav(false)}
             activeclassname="active" className="contact-link" to="/contact">
