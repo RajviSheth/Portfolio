@@ -34,7 +34,7 @@ const Resume = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    const resumeUrl = 'https://drive.google.com/file/d/14q8KecL7h4ovdQ4hMawhd8y5lCoP3TIf/view?usp=sharing';
+    const resumeUrl = 'https://drive.google.com/file/d/1-O9SNgRiVN_pp1anesFalzNQ2UphYUcf/view?usp=drive_link';
     window.open(resumeUrl, '_blank');
 
     navigate('/Contact'); // Navigates to the portfolio route
